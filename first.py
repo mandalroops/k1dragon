@@ -17,7 +17,7 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), o
 
 driver.get("https://k1dragon.blogspot.com/")
 print("Opened the website")
-driver.find_element_by_link_text("First Post").click()
+driver.find_element_by_link_text("New Post").click()
 time.sleep(5)
 driver.find_element_by_link_text("link").click()
 time.sleep(1700)
